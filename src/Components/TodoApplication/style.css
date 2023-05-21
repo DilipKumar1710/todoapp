@@ -1,0 +1,98 @@
+.todo-main-container{
+    background-color: cadetblue;
+    min-height: 100vh;
+    padding-bottom: 20px;
+}
+
+.content-container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+nav h1{
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 800;
+    color:tomato;
+}
+
+nav button{
+    padding: 10px 16px;
+    background-color: rgb(31, 12, 199);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 600;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.todo-form-container{
+    padding-top:30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.todo-form-container input{
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    height:50px;
+    width: 100%;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.todo-form-container button{
+    padding: 12px 15px;
+    width:120px;
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 600;
+    background-color: blue;
+    color: beige;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.todo-form-container button:hover{
+    background-color: green;
+}
+
+.save-btn{
+    margin-top: 30px;
+    padding: 10px 17px;
+    background-color: rgb(23, 235, 23);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 600;
+    color:aliceblue;
+}
+
+.save-btn:hover{
+    background-color: red;
+}
+
